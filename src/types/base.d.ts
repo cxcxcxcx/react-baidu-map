@@ -1,5 +1,4 @@
-
-declare global {
+declare module "m" {
   interface Window {
     BMap: typeof BMap;
   }
@@ -108,4 +107,3 @@ declare namespace BMap {
     toSpan?(): Point;
   }
 }
-declare module "m" {}

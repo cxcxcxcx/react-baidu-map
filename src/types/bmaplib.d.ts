@@ -1,5 +1,4 @@
-declare module "m" {}
-declare global {
+declare module "m" {
   interface Window {
     BMapLib: typeof BMapLib;
   }
