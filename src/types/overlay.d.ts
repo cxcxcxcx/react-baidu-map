@@ -141,7 +141,7 @@ declare namespace BMap {
     /**
      * 返回覆盖物所在的map对象
      */
-    getMap(): MapProps;
+    getMap(): any /*MapProps*/;
     /**
      * 添加右键菜单
      */
@@ -789,7 +789,7 @@ declare namespace BMap {
     /**
      * 返回覆盖物所在的map对象
      */
-    getMap(): MapProps;
+    getMap(): any /*MapProps*/;
     /**
      * 添加事件监听函数
      */
@@ -1093,11 +1093,11 @@ declare namespace BMap {
     /**
      * 获取热区对应的用户数据
      */
-    getUserData(): Mix;
+    getUserData(): any/* Mix */;
     /**
      * 设置热区对应的用户数据
      */
-    setUserData(data: Mix): void;  
+    setUserData(data: any/* Mix */): void;  
   }
   /**
    * 此类表示地图上的一个热区。
@@ -1290,7 +1290,7 @@ declare namespace BMap {
     /**
      * 设置图层显示的矩形区域
      */
-    setBounds(bounds: Bounds): none;
+    setBounds(bounds: Bounds): void;
     /**
      * 返回图层显示的矩形区域
      */
@@ -1298,7 +1298,7 @@ declare namespace BMap {
     /**
      * 设置图层的透明度
      */
-    setOpacity(opcity: number): none;
+    setOpacity(opcity: number): void;
     /**
      * 返回图层的透明度
      */
@@ -1306,7 +1306,7 @@ declare namespace BMap {
     /**
      * 返回图层地址
      */
-    setImageURL(url: string): none;
+    setImageURL(url: string): void;
     /**
      * 返回图层地址
      */
@@ -1314,7 +1314,7 @@ declare namespace BMap {
     /**
      * 设置图层显示的最小级别
      */
-    setDisplayOnMinLevel(level: number): none;
+    setDisplayOnMinLevel(level: number): void;
     /**
      * 返回图层显示的最小级别
      */
@@ -1322,7 +1322,7 @@ declare namespace BMap {
     /**
      * 设置图层显示的最大级别
      */
-    setDispalyOnMaxLevel(level: number): none;
+    setDispalyOnMaxLevel(level: number): void;
     /**
      * 返回图层显示的最大级别
      */

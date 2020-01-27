@@ -108,3 +108,4 @@ declare namespace BMap {
     toSpan?(): Point;
   }
 }
+declare module "m" {}

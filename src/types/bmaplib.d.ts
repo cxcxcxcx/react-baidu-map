@@ -1,3 +1,4 @@
+declare module "m" {}
 declare global {
   interface Window {
     BMapLib: typeof BMapLib;

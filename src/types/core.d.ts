@@ -268,7 +268,7 @@ declare namespace BMap {
     /**
      * 返回地图上处于打开状态的信息窗的实例。当地图没有打开的信息窗口时，此方法返回null
      */
-    getInfoWindow(): InfoWindow | Null;
+    getInfoWindow(): InfoWindow | null;
     /**
      * 返回地图上的所有覆盖物
      */
@@ -522,6 +522,6 @@ declare namespace BMap {
    * 该类用于设置地图样式的个性化地图服务V2，使用对象字面量形式表示，不可实例化。
    * 样式Json，通过[`编辑器生成`](http://lbsyun.baidu.com/apiconsole/custommap)
    */
-  type MapStyleV2 = { styleJson: MapStyleItem[] } | { styleId: string };
+  type MapStyleV2 = { styleJson: /*MapStyleItem*/any[] } | { styleId: string };
 }
 declare const BMAP_API_VERSION: BMap.APIVersion;
